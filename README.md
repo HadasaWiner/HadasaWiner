@@ -16,8 +16,8 @@
 
 ## 👩‍💻 About me
 
-I'm one of the few people who has written production COBOL on an AS400 mainframe **and** shipped multi-agent LLM systems with prompt-injection defenses.
-That combination is the point: most enterprise AI fails not because of the model, but because nobody understood the legacy system, the regulator, or the people who have to use it.
+I design and build AI systems for organizations where a wrong answer is a real problem — multi-agent platforms, hardened RAG, and the methodology that gets teams to actually use them.
+Most enterprise AI fails not because of the model, but because nobody understood the core systems, the regulator, or the people who have to use it. I've spent a decade on the inside of all three.
 
 - 🏛️ **Today** — Leading AI in a large national government body: AI-assisted SDLC, spec-driven development, agent skills, and organization-wide knowledge over dozens of code repositories
 - 🏦 **Before** — A decade of core systems in a major bank, an insurer and a health fund — the places where a wrong decision is a regulatory event
