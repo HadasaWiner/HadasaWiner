@@ -93,11 +93,56 @@ Methodology design · process analysis · rolling out AI to analysts and develop
 
 ## 🚀 Featured work
 
-### 🧭 [MasterTrail](https://github.com/HadasaWiner/mastertrail) — *Expert thinking. Human decisions.*
-A methodology for AI-assisted work in regulated organizations. A team is three partners — the **Employee** thinks and decides, the **AI** guides and executes, the **Skill** encodes how a master practitioner thinks. Ships with seven reference Skills covering the full analysis-to-development pipeline, an adoption playbook, and a sealed, reproducible proof protocol.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 📚 [wiki-engine](https://github.com/HadasaWiner/wiki-engine) — *A company wiki that writes itself.*
-The knowledge layer of a multi-agent platform, extracted as a standalone engine. A deterministic, bilingual sanitizer stops prompt injection before the model sees the text; a fail-closed policy matrix keeps humans on every external fact; hybrid pgvector + tsvector retrieval with clearance enforced in SQL. Hebrew + English, right-to-be-forgotten built in, 235 tests, offline demo on real Postgres.
+### 🧭 [MasterTrail](https://github.com/HadasaWiner/mastertrail)
+*Expert thinking. Human decisions.*
+
+**The problem** — Give everyone an AI assistant and output quality still depends on who's at the keyboard.
+
+**What I built** — A methodology that encodes how your best people think into **Skills** an AI runs and a person walks through.
+
+| | |
+|---|---|
+| 🤝 | Employee + AI + Skill triad |
+| 🧩 | 7 reference Skills, intake → dev-ready specs |
+| 📘 | Adoption playbook for organizations |
+| 🔬 | Sealed, blind, reproducible proof protocol |
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 [wiki-engine](https://github.com/HadasaWiner/wiki-engine)
+*A company wiki that writes itself.*
+
+**The problem** — One poisoned document in a knowledge base reaches every agent's context, permanently.
+
+**What I built** — The knowledge layer of my multi-agent platform, hardened and extracted as a standalone engine.
+
+| | |
+|---|---|
+| 🛡️ | Injection blocked *before* the LLM sees it |
+| ⚖️ | Fail-closed policy, humans approve external facts |
+| 🔎 | Hybrid pgvector + tsvector retrieval (RRF) |
+| ✅ | 235 tests · offline demo on real Postgres |
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/HadasaWiner/wiki-engine">
+    <img src="https://raw.githubusercontent.com/HadasaWiner/wiki-engine/main/docs/demo.svg" alt="wiki-engine demo: a poisoned document is quarantined before reaching the model" width="85%">
+  </a>
+  <br>
+  <sub><i>wiki-engine live demo — a prompt-injection attempt hidden with a zero-width character, caught and quarantined</i></sub>
+</p>
+
+### 🔜 Coming next
+- **Agent output-safety layer** — early exit on unsafe agent output, with `SHADOW` (observe) and `ENFORCE` (block) modes
+- **MasterTrail proof results** — the first controlled run: AI alone vs. AI + Skill, scored blind
 
 ---
 
