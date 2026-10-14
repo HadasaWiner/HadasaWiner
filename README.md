@@ -2,6 +2,7 @@
 
 **AI Solution Architect · Creator of MasterTrail**
 *Expert thinking. Human decisions.*
+Works in Hebrew and English · Public sector, banking, insurance, healthcare
 
 I design AI-assisted ways of working for organizations where expertise is scarce and regulation is heavy.
 Today I lead AI adoption and spec-driven development (SDD) methodology in the public sector.
@@ -23,11 +24,18 @@ MasterTrail adds a third partner to the team:
 A *Skill* is the codified thought process of an expert in the field. It walks the employee through the right questions, in the right order, so the work is procedurally correct even when no senior expert is in the room.
 The person who builds and maintains these skills is the **Trailwright**.
 
-The first reference trail covers systems analysis and the SDLC — from business intake to dev-ready specs:
+The first reference trail covers systems analysis and the SDLC, from business intake to dev-ready specs. Six stages, each a Skill, all sharing one core (`Compass`):
 
-`Compass` (shared core) → `Trailhead` → `Waypoint` → `Lookout` → `Survey` → `Junction` → `Basecamp`
+| Stage | Produces |
+|---|---|
+| `Trailhead` | Process spec from a business request |
+| `Waypoint` | Requirement document |
+| `Lookout` | Quality review with findings (loops back to Waypoint until a human approves) |
+| `Survey` | Component map |
+| `Junction` | Work units with contracts between them |
+| `Basecamp` | Dev-ready spec |
 
-MasterTrail is not presented as a spec. It is presented as a **proof**: a controlled, reproducible comparison of the same work done with AI alone vs. AI + Skill, published with the data.
+MasterTrail is not presented as a spec. It is presented as a **proof**: a controlled, reproducible comparison of the same work done with AI alone vs. AI + Skill. The protocol is public; results will be published with the data as soon as the runs are complete.
 
 👉 [**mastertrail**](https://github.com/HadasaWiner/mastertrail)
 
@@ -43,9 +51,7 @@ The knowledge layer of my multi-agent platform, extracted to run on its own. Fac
 - **Hebrew + English first-class**, right-to-be-forgotten built in
 - `npm run demo` runs the full loop offline on real Postgres (PGlite) · 235 unit tests
 
-**Agent output-safety layer** *(coming)* — early exit on unsafe agent output, with `SHADOW` (observe) and `ENFORCE` (block) modes.
-
-**Model training experiments** *(coming)* — my own training code and notes.
+**Agent output-safety layer** *(in progress)* — early exit on unsafe agent output, with `SHADOW` (observe) and `ENFORCE` (block) modes.
 
 ---
 
